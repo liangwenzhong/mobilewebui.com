@@ -4,7 +4,10 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: 4000,
-					base: '_site'
+					hostname: "*",
+					base: '_site',
+					livereload: true,
+					keepalive: true
 				}
 			}
 		}
@@ -12,6 +15,6 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
-	grunt.registerTask('default', ['connect']);
+	grunt.registerTask('default', ['connect:server']);
 
 };
