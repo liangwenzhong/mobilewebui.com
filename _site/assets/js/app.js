@@ -5,7 +5,7 @@ $(function() {
 	window.introSlider = new Swipe(document.getElementById('intro-slider'), {
 		startSlide: 0,
 		speed: 400,
-		auto: 3000,
+		// auto: 3000,
 		continuous: false,
 		disableScroll: false,
 		stopPropagation: false,
