@@ -1,0 +1,103 @@
+/* ===========================global=========================== */
+html,
+body,
+article {
+	height: 100%;
+}
+
+/* ===========================header=========================== */
+#header {
+	color: #ffffff;
+	position: absolute;
+	z-index: 100;
+	left: 0px;
+	top: 50px;
+	width: 100%;
+}
+#header.scroll {
+	position: fixed;
+	background-color: #363635;
+	top: 0px;
+}
+#header .title {
+	line-height: 50px;
+	font-size: 2em;
+}
+.headroom--top {
+	background-color: none;
+}
+
+/* ===========================intro-page=========================== */
+#intro-page {
+	height: 100%;
+	color: #ffffff;
+}
+#intro-content {
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+}
+#intro-content .title {
+	line-height: 100px;
+	font-size: 2.5em;
+}
+#intro-page .slogan {
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+#intro-page .remark {
+	font-size: 1.2em;
+}
+#intro-slider,
+#intro-slider .swipe-wrap,
+#intro-slider .swipe-wrap .swipe-item {
+	height: 100%;
+}
+#intro-slider .swipe-wrap .swipe-item img {
+	width: 100%;
+}
+.slider-bullets {
+	position: absolute;
+	z-index: 35;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 8px;
+	overflow: hidden;
+}
+.slider-bullets .slider-bullet {
+	display: inline-block;
+	padding: 6px 5px 6px;
+}
+.slider-bullets .slider-bullet span {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #777;
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+.slider-bullets .slider-bullet.selected span {
+	background-color: #FFF;
+	cursor: default;
+}
+
+/* ===========================swipe=========================== */
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > div {
+	float: left;
+	width: 100%;
+	position: relative;
+}
