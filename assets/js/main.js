@@ -40,7 +40,7 @@ requirejs.config({
 
 require(['views/app', 'jquery'], function(appView, $) {
 	new appView();
-	$('body').css("background-color","#ffffff");
+	$('body').css("background-color", "#ffffff");
 	$(".page-loading").css("visibility", 'hidden');
 	$("article,section").css("visibility", 'visible');
 });
