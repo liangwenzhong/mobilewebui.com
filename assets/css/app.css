@@ -11,6 +11,14 @@ article,
 section {
 	visibility: hidden;
 }
+.title {
+	font-size: 2.5em;
+	color: #4d5157;
+}
+.remark {
+	font-size: 1.2em;
+	color: #808185;
+}
 
 /* ===========================spinner=========================== */
 .page-loading {
@@ -107,7 +115,7 @@ section {
 }
 #header .title {
 	line-height: 50px;
-	font-size: 2em;
+	color: #ffffff;
 }
 .headroom--top {
 	background-color: none;
@@ -127,13 +135,15 @@ section {
 #intro-content .title {
 	line-height: 100px;
 	font-size: 2.5em;
+	color: #ffffff;
 }
 #intro-page .slogan {
 	font-size: 2em;
 	margin-bottom: 30px;
+	color: #ffffff;
 }
-#intro-page .remark {
-	font-size: 1.2em;
+#intro-content .remark {
+	color: #ffffff;
 }
 #intro-slider,
 #intro-slider .swipe-wrap,
@@ -195,4 +205,63 @@ section {
 	float: left;
 	width: 100%;
 	position: relative;
+}
+
+/* ===========================framework-page=========================== */
+#framework-page {
+	background-color: #e5e9ea;
+	padding-bottom: 190px;
+}
+#framework-page .title {
+	margin-top: 190px;
+}
+#framework-page .remark {
+	margin-top: 40px;
+}
+.lib-content {
+	padding-top: 165px;
+}
+.lib-box {
+	/*height: 195px;*/
+	border: solid 1px #d8dbdc;
+	background-color: #ffffff;
+}
+.lib-box .icon-box {
+	text-align: center;
+	margin: 10px;
+	height: 140px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	box-direction: normal;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	box-pack: start;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+}
+.lib-box .icon-box img {
+	width: 90%;
+}
+.lib-box .message-box {
+	padding-bottom: 10px;
+}
+.lib-box .message-box .name-box {
+	margin-left: 10px;
+}
+.lib-box .message-box .gh-count {
+	color: #bfc0c1;
+}
+.lib-box .message-box .gh-count iframe {
+	border: none;
+	width: 100%;
+}
+.green {
+	background-color: #9aca40;
 }
