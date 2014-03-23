@@ -17,6 +17,15 @@
   <body class="home-template">
     <!-- header -->
 <!-- article -->
+<div class="page-loading">
+	<div class="spinner">
+		<div class="rect1"></div>
+		<div class="rect2"></div>
+		<div class="rect3"></div>
+		<div class="rect4"></div>
+		<div class="rect5"></div>
+	</div>
+</div>
 <header id="header">
 	<div class="container">
 		<div class="row">
@@ -26,7 +35,7 @@
 		</div>
 	</div>
 </header>
-<article>
+<article id="article">
 <section id="intro-page">
 	<div id='intro-slider' class='swipe'>
 		<div class='swipe-wrap'>
@@ -46,9 +55,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<!-- <div class="title">
-									MobileWebUI.COM
-					</div> -->
 					<div class="slogan">
 						Make you work smart .
 					</div>
@@ -73,10 +79,11 @@
 -->
     <footer>
 </footer>
-<script src="/assets/vendor/jquery/jquery-2.1.0.min.js"></script>
+<!-- <script src="/assets/vendor/jquery/jquery-2.1.0.min.js"></script>
 <script src="/assets/vendor/jquery-waypoints/waypoints.min.js"></script>
 <script src="/assets/vendor/swipe/swipe.js"></script>
 <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/assets/js/app.js"></script>
+<script type="text/javascript" src="/assets/js/app.js"></script> -->
+<script data-main="/assets/js/main.js" src="/assets/vendor/requirejs/require.min.js"></script>
   </body>
 </html>
